@@ -1,0 +1,31 @@
+.fedbackform{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 4px 1px rgb(226, 225, 225);
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+label {
+font-size: 19px;
+font-weight: bold;
+display: block;
+margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 9px;
+border: none;
+background: var(--hvr-txt-clr);
+font-size: 20px;
+font-family: Arial, sans-serif;
+}
+textarea{
+height: 150px;
+resize: none;
+}

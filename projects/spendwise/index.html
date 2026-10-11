@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpendWise | Expense Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="blob b1"></div><div class="blob b2"></div>
+<main class="wrap">
+  <h1>Spend<span>Wise</span></h1>
+  <section class="balance glass">
+    <p>Total balance</p>
+    <h2 id="balance">Rs 0</h2>
+    <div class="row">
+      <div><small>Income</small><b class="in" id="income">Rs 0</b></div>
+      <div><small>Expenses</small><b class="out" id="expense">Rs 0</b></div>
+    </div>
+  </section>
+  <div class="cols">
+    <form id="form" class="glass" novalidate>
+      <h3>Add transaction</h3>
+      <div class="toggle" id="toggle">
+        <button type="button" class="on" data-type="income">Income</button>
+        <button type="button" data-type="expense">Expense</button>
+      </div>
+      <label for="title">Title</label>
+      <input id="title" type="text" placeholder="e.g. Salary, Groceries" maxlength="40">
+      <label for="amount">Amount (Rs)</label>
+      <input id="amount" type="number" min="1" placeholder="0">
+      <p class="error" id="error" role="alert"></p>
+      <button class="add" type="submit">Add transaction</button>
+    </form>
+    <section class="glass">
+      <h3>History</h3>
+      <ul id="list"></ul>
+    </section>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

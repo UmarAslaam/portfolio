@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Umar Aslam | Frontend Developer</title>
+<meta name="theme-color" content="#070b16">
+<meta property="og:title" content="Umar Aslam | Frontend Developer">
+<meta property="og:description" content="Responsive, accessible websites and web apps.">
+<meta property="og:type" content="website">
+<meta name="description" content="Portfolio of Umar Aslam, a frontend developer building fast, responsive and accessible websites.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#home">Skip to content</a>
+
+<div class="progress" id="progress"></div>
+
+<!---------------- Header section Start ------------>
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="#home" class="logo">&lt;<span>UA</span>/&gt;</a>
+    <nav id="menu" class="menu" aria-label="Main">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme" id="theme" aria-label="Switch to light theme"><i class="fa-solid fa-moon"></i></button>
+    <a href="#contact" class="btn btn--sm nav__cta">Hire me <i class="fa-solid fa-arrow-right"></i></a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<!---------------- Header Section End -------------->
+
+<!---------------- Main section Start ------------>
+<main>
+
+<!---------------- Hero section Start ------------>
+<section class="hero" id="home">
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <p class="badge"><span class="dot"></span> Open to internships and freelance work</p>
+      <h1>Hi, I'm Umar Aslam.<br>I build <span class="type" id="type"></span><span class="caret">|</span></h1>
+      <p class="lead">Frontend developer focused on clean code, responsive layouts and interfaces that feel good to use. I turn ideas into fast, accessible websites.</p>
+      <div class="hero__btns">
+        <a href="#projects" class="btn">View my work <i class="fa-solid fa-arrow-down"></i></a>
+        <a href="#contact" class="btn btn--ghost">Contact me <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/UmarAslaam" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/umar-aslam-dev/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:umaraslaam2001@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="code" aria-hidden="true">
+      <div class="code__bar"><i></i><i></i><i></i><span>developer.js</span></div>
+          <div class="code__body">
+      <p><b class="k">const</b> developer = {</p>
+      <p class="i">name: <b class="s">"Umar Aslam"</b>,</p>
+      <p class="i">role: <b class="s">"Frontend Developer"</b>,</p>
+      <p class="i">stack: [<b class="s">"HTML"</b>, <b class="s">"CSS"</b>, <b class="s">"JS"</b>],</p>
+      <p class="i">learning: <b class="s">"something new daily"</b>,</p>
+      <p class="i">available: <b class="k">true</b></p>
+      <p>};</p>
+    </div>
+    </div>
+  </div>
+</section>
+<!---------------- hero section End ------------->
+
+<!---------------- About section Start ------------>
+<section class="section" id="about">
+  <div class="container about">
+    <div class="about__card">
+      <div class="avatar">UA</div>
+      <h3>Umar Aslam</h3>
+      <p>Frontend Developer Intern</p>
+      <ul class="facts">
+        <li><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</li>
+        <li><i class="fa-solid fa-graduation-cap"></i> Master In Islamic & Arabic, Jamia uloom ul islamia binori town karachi</li>
+        <li><i class="fa-solid fa-graduation-cap"></i> ADSE, Aptech Learning North Nazimabad Karachi - In progress</li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="title">About me</h2>
+      <p class="text">I'm a frontend developer who enjoys making the web simple and beautiful. I started with HTML and CSS, moved on to JavaScript, and now build real projects that work on every screen size.</p>
+      <p class="text">I'm currently an intern at MTech Solutions, where I'm sharpening my skills in structured code, responsive design and deployment. My goal is to grow into a professional developer who ships polished products with a team.</p>
+      <div class="stats">
+        <div><strong data-count="3">0</strong><span>Projects built</span></div>
+        <div><strong data-count="6">0</strong><span>Technologies used</span></div>
+        <div><strong data-count="100">0</strong><span>% responsive</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!---------------- About section End ------------>
+
+
+<!---------------- Skills section Start ------------>
+
+<section class="section alt" id="skills">
+  <div class="container">
+    <h2 class="title center">Skills</h2>
+    <p class="sub center">The tools I use to design, build and ship.</p>
+    <div class="skills">
+      <article class="card skill"><i class="fa-brands fa-html5"></i><h3>HTML5</h3><p>Semantic, accessible markup</p><div class="bar"><i data-w="90"></i></div></article>
+      <article class="card skill"><i class="fa-brands fa-css3-alt"></i><h3>CSS3</h3><p>Flexbox, Grid, animations</p><div class="bar"><i data-w="88"></i></div></article>
+      <article class="card skill"><i class="fa-brands fa-js"></i><h3>JavaScript</h3><p>DOM, events, ES6+</p><div class="bar"><i data-w="78"></i></div></article>
+      <article class="card skill"><i class="fa-brands fa-bootstrap"></i><h3>Bootstrap</h3><p>Responsive grids and components</p><div class="bar"><i data-w="80"></i></div></article>
+      <article class="card skill"><i class="fa-brands fa-git-alt"></i><h3>Git</h3><p>Commits, branches, merges</p><div class="bar"><i data-w="75"></i></div></article>
+      <article class="card skill"><i class="fa-brands fa-github"></i><h3>GitHub</h3><p>Repos, README, deployment</p><div class="bar"><i data-w="80"></i></div></article>
+    </div>
+  </div>
+</section>
+<!---------------- Skills section End ------------>
+
+<!---------------- Projects section Start ------------>
+
+<section class="section" id="projects">
+  <div class="container">
+    <h2 class="title center">Projects</h2>
+    <p class="sub center">Real projects I designed and built from scratch. Open any live demo and try it.</p>
+    <div class="grid3">
+      <article class="card project">
+        <a class="shot s-bag" href="https://thebagstore.netlify.app" target="_blank" rel="noopener" aria-label="Open Bag Store live demo">
+          <div class="shot__bar"><i></i><i></i><i></i></div>
+          <div class="shot__view"><img src="assets/bag-preview.jpg" alt="" loading="lazy"></div>
+        </a>
+        <span class="kind">E-commerce website</span>
+        <h3>Bag Store</h3>
+        <p>A multi-page online bag shop with men, women, kids and travel categories, brands, gallery, FAQs, order tracking, contact, feedback and login forms.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span></div>
+        <div class="links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/yourusername/portfolio/tree/main/projects/bag-store" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+          <a class="btn btn--sm" href="https://thebagstore.netlify.app" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo</a>
+        </div>
+      </article>
+
+      <article class="card project">
+        <a class="shot s-memory" href="https://thememorymatch.netlify.app" target="_blank" rel="noopener" aria-label="Open Memory Match live demo">
+          <div class="shot__bar"><i></i><i></i><i></i></div>
+          <div class="shot__view"><div class="mm"><i></i><i class="w">🚀</i><i></i><i></i><i class="w">🐼</i><i></i><i class="w">🚀</i><i></i></div></div>
+        </a>
+        <span class="kind">Game</span>
+        <h3>Memory Match</h3>
+        <p>A card-matching game with 3 difficulty levels, flip animations, a move counter, a timer and a saved best score.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <div class="links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/yourusername/portfolio/tree/main/projects/memory-match" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+          <a class="btn btn--sm" href="https://thememorymatch.netlify.app" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo</a>
+        </div>
+      </article>
+
+      <article class="card project">
+        <a class="shot s-spend" href="https://sendwisee.netlify.app" target="_blank" rel="noopener" aria-label="Open SpendWise live demo">
+          <div class="shot__bar"><i></i><i></i><i></i></div>
+          <div class="shot__view"><div class="sw"><small>Total balance</small><b>Rs 42,500</b><span class="g"></span><span class="r"></span></div></div>
+        </a>
+        <span class="kind">Finance app</span>
+        <h3>SpendWise</h3>
+        <p>An expense tracker with a glass UI. Add income and expenses, watch the balance update and keep your history saved.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <div class="links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/yourusername/portfolio/tree/main/projects/spendwise" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+          <a class="btn btn--sm" href="https://sendwisee.netlify.app" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<!---------------- Projects section End ------------>
+
+<!---------------- Services section Start ------------>
+<section class="section alt" id="services">
+  <div class="container">
+    <h2 class="title center">Services</h2>
+    <p class="sub center">How I can help your business or idea.</p>
+    <div class="grid3">
+      <article class="card service"><i class="fa-solid fa-laptop-code"></i><h3>Website development</h3><p>Fast, clean websites built with HTML, CSS and JavaScript.</p></article>
+      <article class="card service"><i class="fa-solid fa-mobile-screen"></i><h3>Responsive design</h3><p>Layouts that look right on phones, tablets and desktops.</p></article>
+      <article class="card service"><i class="fa-solid fa-palette"></i><h3>UI implementation</h3><p>Turn your Figma or design idea into pixel-accurate code.</p></article>
+      <article class="card service"><i class="fa-solid fa-bolt"></i><h3>Performance tuning</h3><p>Optimised images and lean code for quick load times.</p></article>
+      <article class="card service"><i class="fa-solid fa-store"></i><h3>Business and store sites</h3><p>Multi-page websites for shops and small businesses.</p></article>
+      <article class="card service"><i class="fa-solid fa-rocket"></i><h3>Deployment</h3><p>Launch on Vercel or Netlify with a GitHub workflow.</p></article>
+    </div>
+  </div>
+</section>
+<!---------------- Services section End ------------>
+
+<!---------------- Contact section Start ------------>
+<section class="section" id="contact">
+  <div class="container contact">
+    <div>
+      <h2 class="title">Let's work together</h2>
+      <p class="text">Have a project, an internship opportunity or just a question? Send a message and I'll reply within a day.</p>
+      <ul class="info">
+        <li><i class="fa-solid fa-envelope"></i><div><b>Email</b><a href="mailto:umaraslaam2001@gmail.com">umaraslaam2001@gmail.com</a></div></li>
+        <li><i class="fa-solid fa-phone"></i><div><b>Phone</b><a href="tel:+923312127072">+92 3312127072</a></div></li>
+        <li><i class="fa-solid fa-location-dot"></i><div><b>Location</b><span>Karachi, Pakistan</span></div></li>
+      </ul>
+    </div>
+    <form class="card form" id="form" novalidate>
+      <div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" placeholder="Your full name" autocomplete="name"><small></small></div>
+      <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email"><small></small></div>
+      <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What is this about?"><small></small></div>
+      <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."></textarea><small></small></div>
+      <button class="btn btn--full" type="submit">Send message <i class="fa-solid fa-paper-plane"></i></button>
+      <p class="success" id="success" role="status"></p>
+    </form>
+  </div>
+</section>
+<!---------------- Contact section End ------------>
+</main>
+<!---------------- Main section End -------------->
+
+
+<!---------------- Footer section Start ------------>
+<footer class="footer">
+  <div class="container">
+    <div class="cta-band">
+      <div><h2>Have a project in mind?</h2><p>Let's build something clean, fast and memorable together.</p></div>
+      <a href="#contact" class="btn">Start a conversation <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="footer__grid">
+      <div class="f-brand">
+        <a href="#home" class="logo">&lt;<span>UA</span>/&gt;</a>
+        <p>Frontend developer building clean, responsive and accessible websites.</p>
+        <div class="socials">
+          <a href="https://github.com/UmarAslaam" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/umar-aslam-dev/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:umaraslaam2001@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <nav aria-label="Footer quick links"><h4>Quick links</h4><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a></nav>
+      <nav aria-label="Footer services"><h4>Services</h4><a href="#services">Website development</a><a href="#services">Responsive design</a><a href="#services">UI implementation</a><a href="#contact">Contact</a></nav>
+      <div class="f-contact"><h4>Get in touch</h4><a href="mailto:umaraslaam2001@gmail.com"><i class="fa-solid fa-envelope"></i> umaraslaam2001@gmail.com</a><a href="tel:+923312127072"><i class="fa-solid fa-phone"></i> +92 3312127072</a><span><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</span></div>
+    </div>
+    <p class="copy">&copy; <span id="year">2026</span> Umar Aslam. All rights reserved. Built with HTML, CSS and JavaScript.</p>
+  </div>
+</footer>
+<!---------------- Footer section End -------------->
+
+
+<button class="top" id="top" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+<script src="js/main.js"></script>
+</body>
+</html>

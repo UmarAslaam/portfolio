@@ -1,0 +1,123 @@
+
+.container-form{
+    width: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.25);
+     background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+
+}
+.terms{
+    margin-left: -20px;
+}
+.terms input{
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7rem;
+    color: #fff;
+  
+}
+.terms a{
+    color: #eeab41;
+    text-decoration: none;   
+}
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #fff;
+}
+.member a{
+    color: #eeab41;
+    text-decoration: none; 
+    margin-left: 5px;  
+}
+#correct{
+    color: green;
+    display: none;
+  
+ 
+}
+#incorrect{
+    color: red;
+    display: none;
+   
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+form{
+    margin: 20px;
+}
+
+
+input{
+    display: block;
+    width: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white; 
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+input::placeholder{
+    color: #eeab41;
+}
+
+button{
+    display: block;
+    width: 95%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #eeab41;
+    font-size: 23px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+  
+}
+button:hover{
+  color: black;
+  cursor: pointer;
+
+}
+.forgot{
+   display: flex;
+   justify-content: center;
+   color: #eeab41;
+   margin-top: -10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #20002c;
+
+}
+
+#showpassword{
+    position: relative;
+left: 80%;
+top:-50px;
+color: white;
+ 
+}
+#eye{
+    display: none;
+    position: relative;
+    left: 80%;
+    top:-50px;
+    color: white;
+}

@@ -1,0 +1,1891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bag Store | Online Bag Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- owl Carousel link Start -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- owl Carousel link End -->
+  <link rel="stylesheet" href="./assests/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="shortcut icon" href="./images/Logo.png" type="image/x-icon" />
+
+</head
+
+
+<body>
+  <!-- off canvas/Add to section start -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"      aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title " id="offcanvasRightLabel"> <b> Add <span class="all-headings">To</span> Cart </b></h2>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body text-center">
+      <h6 class="atcp mb-3">Your shopping bag is empty</h6>
+  <button type="button" class="btn btn-dark" id="atcb"><b>GO To The Shop</b></button>
+    </div> 
+    </div>
+  <!-- off canvas/Add to section end -->
+
+  <!--  Navbar -->
+  <header>
+    <!--  header 1 Start -->
+    <div class="container-fluid header">
+      <a href="index.html">
+        <img src="./images/Logo.png" width="150px" alt=""></a>
+      <div class="search d-flex position-relative">
+        <input type="search" class="form-control" name="search" id="search-box" placeholder="what you want?">
+        <label for="search-box" class="fas fa-search "></label>
+      </div>
+      <div class="nav-icons d-flex justify-content-center">
+        <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+            class="fa-solid fa-cart-shopping"></i></a>
+        <a href="login form.html"> <i class="fa-solid fa-user"></i></a>
+      </div>
+    </div>
+    <!--  header 1 End  -->
+
+
+    <!--  header 2 Start -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars toggle"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown position-static">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu w-100">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                      <a class="dropdown-item h4 h4-hd">Women's Bags</a>
+                      <li>
+                        <hr class="dropdown-divider border border-black">
+                      </li>
+                      <a class="dropdown-item" href="./Women Bags/shoulderbag.html">Shoulder Bags</a>
+                      <a class="dropdown-item" href="./Women Bags/handbag.html">Hand Bags</a>
+                      <a class="dropdown-item" href="./Women Bags/shoulderbag.html">Sling Bags</a>
+                      <a class="dropdown-item" href="./Women Bags/crosbodybag.html">Crosbody Bags</a>
+                      <a class="dropdown-item" href="./Women Bags/satchelbag.html">Satchel Bags</a>
+                      <a class="dropdown-item" href="./Women Bags/wristletbag.html">Wristlet Bags</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                      <a class="dropdown-item h4 h4-hd">Men's Bags</a>
+                      <li>
+                        <hr class="dropdown-divider border  border-black">
+                      </li>
+                      <a class="dropdown-item" href="./Man Bags/backpack.html">Backpack Bags</a>
+                      <a class="dropdown-item" href="./Man Bags/messengerbag.html"> Messenger Bags</a>
+                      <a class="dropdown-item" href="./Man Bags/dopkit bag.html">Dopp Kit Bags</a>
+                      <a class="dropdown-item" href="./Man Bags/bussiness bag.html">Business Bags</a>
+                      <a class="dropdown-item" href="./Man Bags/clutches bag.html">Clutches Bags</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                      <a class="dropdown-item h4 h4-hd">All Bags</a>
+                      <li>
+                        <hr class="dropdown-divider border border-black">
+                      </li>
+                      <a class="dropdown-item" href="./All Bags/travel bag.html">Travel Bags</a>
+                      <a class="dropdown-item" href="./All Bags/breifcase.html ">Briefcase Bags</a>
+                      <a class="dropdown-item" href="./All Bags/cosmetic bags.html ">Cosmetic Bags</a>
+                      <a class="dropdown-item" href="./All Bags/laptop bags.html">laptop Bags</a>
+                      <a class="dropdown-item" href="./All Bags/school bags.html">School Bags</a>
+                      <a class="dropdown-item" href="./All Bags/kids bags.html">Kids Bags</a>
+                      <a class="dropdown-item" href="./All Bags/camera bags.html">Camera Bags</a>
+
+                    </div>
+                  </div>
+              </ul>
+            </li>
+            <li class="nav-item dropdown position-static">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Brands
+              </a>
+              <ul class="dropdown-menu w-100 ">
+                <div class="container-fluid">
+                  <div class="row ">
+                    <div class="col-2 dp-text">
+                      <li><a class="dropdown-item text-black" href="./Brands/prada.html">Prada</a></li>
+                    </div>
+                    <div class="col-2">
+                      <li><a class="dropdown-item text-black" href="./Brands/Marc Jacobs.html">Marc Jacobs</a></li>
+                    </div>
+                    <div class="col-2">
+                      <li><a class="dropdown-item text-black" href="./Brands/Astore.html">Astore</a></li>
+                    </div>
+                    <div class="col-2">
+                      <li><a class="dropdown-item text-black" href="./Brands/coach.html">Coach</a></li>
+                    </div>
+                    <div class="col-2">
+                      <li><a class="dropdown-item text-black" href="./Brands/Saint Laurent.html">Saint Laurent</a></li>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="faqs.html">FAQS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--  Navbar End -->
+  </header>
+  <!--  header 2 End -->
+
+  <!-- Carosel Start -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/carousel1.gif" height="600px" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <button type="button" class="btn btn-warning cr-btn ">BUY ONLINE NOW</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/carousel2.jpg" height="600px" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/carosel3.jpg" height="600px" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Carosel End -->
+
+  <!-- card start -->
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center mt-3 ">Top <span class="all-headings">Selling</span></h1>
+      <div class="col-lg-3 col-md-6 my-3  d-flex justify-content-center">
+        <div class="card card-border" style="width: 18rem; ">
+          <img src="./images/card1.jpg" class="card-img-top" alt="..." height="300px">
+          <hr class="w-100 border border-dark border-1 " />
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-dark btn-cntr" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"><i class="fa-solid fa-cart-shopping btn-i"></i> Buy Now </button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog  modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Hand Bag</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-5">
+                <img src="./images/card1.jpg" id="img" height="250px" width="300px" alt="">
+                <div class="row d-flex justify-content-around">
+                  <img src="./images/modal-1.jpg" onclick="img1()"
+                    class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                  <img src="./images/modal-2.jpg" onclick="img2()"
+                    class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                  <img src="./images/modal-3.jpg" onclick="img3()"
+                    class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <h2>Hand Bag</h2>
+                <p class="modal-para border-secondary border-top border-5">Crocodile skin Pattern Glossy Finish
+                  white color handbags for women</p>
+                <h6 class="modal-hd">Brand: <span class="Brand-modaal">liDiva</span> </h6>
+                <h6 class="modal-hd">Price : <span class="text-danger"><del>Rs. 7000</del></span></h6>
+                <h6 class="modal-hd">Discount Price : Rs. 5500</h6>
+                <br>
+                <div class="d-flex ">
+                  <h5>Quantity: </h5>
+                  <input type="number" name="" id="" min="1" max="5"
+                    class="form-control w-25   border-secondary border-top border-5">
+                </div>
+                <div>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>12 reviews</span>
+                </div>
+                <img src="./images/free.gif" class="del-clr border-secondary border-top border-5" alt=""
+                  height="100px">
+
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+      
+      <div class="col-lg-3 col-md-6 my-3  d-flex justify-content-center" >
+        <div class="card card-border" style="width: 18rem;">
+          <img src="./images/carrd2.jpg" class="card-img-top" alt="..." height="300px">
+          <hr class="w-100 border border-dark border-1 " />
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-dark btn-cntr" data-bs-toggle="modal"
+                data-bs-target="#exampleModal1"><i class="fa-solid fa-cart-shopping btn-i"></i> Buy Now </button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+      aria-hidden="true">
+      <div class="modal-dialog  modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel1">Hand Bag</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-5">
+                <img src="./images/carrd2.jpg" id="img1" height="250px" width="300px" alt="" class="">
+                <div class="row d-flex justify-content-around">
+                  <img src="./images/modal-4.jpg" onclick="img4()"
+                    class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                  <img src="./images/modal-5.webp" onclick="img5()"
+                    class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                  <img src="./images/modal-6.jpg" onclick="img6()"
+                    class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <h2>Hand Bag</h2>
+                <p class="modal-para border-secondary border-top border-5">Crocodile skin Pattern Glossy Finish
+                  yellow color PU handbags for women</p>
+                <h6 class="modal-hd">Brand: <span class="Brand-modaal">liDiva</span> </h6>
+                <h6 class="modal-hd">Price : <span class="text-danger"><del>Rs. 8000</del></span></h6>
+                <h6 class="modal-hd">Discount Price : Rs. 6500</h6>
+                <br>
+                <div class="d-flex ">
+                  <h5>Quantity: </h5>
+                  <input type="number" name="" id="" min="1" max="5"
+                    class="form-control w-25    border-secondary border-top border-5">
+                </div>
+                <div>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>12 reviews</span>
+                </div>
+                <img src="./images/free.gif" class="del-clr border-secondary border-top border-5" alt=""
+                  height="100px">
+
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+      <div class="col-lg-3 col-md-6 my-3  d-flex justify-content-center" >
+        <div class="card card-border" style="width: 18rem;">
+          <img src="./images/card3.jpg" class="card-img-top" alt="..." height="300px">
+          <hr class="w-100 border border-dark border-1 " />
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-dark btn-cntr" data-bs-toggle="modal"
+                data-bs-target="#exampleModal2"><i class="fa-solid fa-cart-shopping btn-i"></i> Buy Now </button>
+            </div>
+       
+          </div>
+        </div>
+      </div>
+           <!-- Modal -->
+           <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+           aria-hidden="true">
+           <div class="modal-dialog  modal-lg">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel2">Backpack</h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                 <div class="row">
+                   <div class="col-lg-5">
+                     <img src="./images/card3.jpg" id="img2" height="250px" width="300px" alt="" class="">
+                     <div class="row d-flex justify-content-around">
+                       <img src="./images/modal-7.jpg" onclick="img7()"
+                         class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                       <img src="./images/modal-8.jpg" onclick="img8()"
+                         class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                       <img src="./images/modal-9.jpg" onclick="img9()"
+                         class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                     </div>
+                   </div>
+                   <div class="col-lg-7">
+                     <h2>Backpack</h2>
+                     <p class="modal-para border-secondary border-top border-5">The Orca OR-554 Laptop Backpack for
+                       Daily Use is a padded and lightweight laptop backpack. The OR-554 comes in 2 colors, yellow
+                       and gray.</p>
+                     <h6 class="modal-hd">Brand: <span class="Brand-modaal">liDiva</span> </h6>
+                     <h6 class="modal-hd">Price : <span class="text-danger"><del>Rs. 5000</del></span></h6>
+                     <h6 class="modal-hd">Discount Price : Rs. 4000</h6>
+                     <br>
+                     <div class="d-flex ">
+                       <h5>Quantity: </h5>
+                       <input type="number" name="" id="" min="1" max="5"
+                         class="form-control w-25   border-secondary border-top border-5">
+                     </div>
+                     <div>
+                       <i class="fa-solid fa-star"></i>
+                       <i class="fa-solid fa-star"></i>
+                       <i class="fa-solid fa-star"></i>
+                       <i class="fa-solid fa-star"></i>
+                       <span>12 reviews</span>
+                     </div>
+                     <img src="./images/free.gif" class="del-clr border-secondary border-top border-5" alt=""
+                       height="100px">
+
+                   </div>
+                 </div>
+
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                 <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+               </div>
+             </div>
+           </div>
+         </div>
+
+      <div class="col-lg-3 col-md-6 my-3  d-flex justify-content-center" >
+        <div class="card card-border" style="width: 18rem;">
+          <img src="./images/card-4.jpg" class="card-img-top" alt="..." height="300px">
+          <hr class="w-100 border border-dark border-1 " />
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-dark btn-cntr" data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"><i class="fa-solid fa-cart-shopping btn-i"></i> Buy Now </button>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+         <!-- Modal -->
+         <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+         aria-hidden="true">
+         <div class="modal-dialog  modal-lg">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel3">Sling Bag</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+               <div class="row">
+                 <div class="col-lg-5">
+                   <img src="./images/card-4.jpg" id="img3" height="250px" width="300px" alt="" class="">
+                   <div class="row d-flex justify-content-around">
+                     <img src="./images/modal-10.jpg" onclick="img10()"
+                       class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                     <img src="./images/modal-11.jpg" onclick="img11()"
+                       class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                     <img src="./images/modal-12.jpg" onclick="img12()"
+                       class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                   </div>
+                 </div>
+                 <div class="col-lg-7">
+                   <h2>sling Bag</h2>
+                   <p class="modal-para border-secondary border-top border-5">Fashion hand bag or sling bag with
+                     Nubuck mustard leather isolated on white background.</p>
+                   <h6 class="modal-hd">Brand: <span class="Brand-modaal">liDiva</span> </h6>
+                   <h6 class="modal-hd">Price : <span class="text-danger"><del>Rs. 5000</del></span></h6>
+                   <h6 class="modal-hd">Discount Price : Rs. 4000</h6>
+                   <br>
+                   <div class="d-flex ">
+                     <h5>Quantity: </h5>
+                     <input type="number" name="" id="" min="1" max="5"
+                       class="form-control w-25   border-secondary border-top border-5">
+                   </div>
+                   <div>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <span>12 reviews</span>
+                   </div>
+                   <img src="./images/free.gif" class="del-clr border-secondary border-top border-5" alt=""
+                     height="100px">
+
+                 </div>
+               </div>
+
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+             </div>
+           </div>
+         </div>
+       </div>
+
+      <div class="col-lg-3 col-md-6 my-3  d-flex justify-content-center" >
+        <div class="card card-border" style="width: 18rem;">
+          <img src="./images/card-5.webp" class="card-img-top" alt="..." height="300px">
+          <hr class="w-100 border border-dark border-1 " />
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-dark btn-cntr" data-bs-toggle="modal"
+                data-bs-target="#exampleModal4"><i class="fa-solid fa-cart-shopping btn-i"></i> Buy Now </button>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+       <!-- Modal -->
+       <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4"
+       aria-hidden="true">
+       <div class="modal-dialog  modal-lg">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel4">Laptop Bag</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+             <div class="row">
+               <div class="col-lg-5">
+                 <img src="./images/card-5.webp" id="img4" height="250px" width="300px" alt="" class="">
+                 <div class="row d-flex justify-content-around">
+                   <img src="./images/modal-13.png" onclick="img13()"
+                     class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                   <img src="./images/modal-13.png" onclick="img14()"
+                     class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                   <img src="./images/modal-15.jpeg" onclick="img15()"
+                     class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                 </div>
+               </div>
+               <div class="col-lg-7">
+                 <h2>Laptop Bag</h2>
+                 <p class="modal-para border-secondary border-top border-5">Laptop Bag Value Backpack 15-inch
+                   Laptop Sport Bag and Good Stuff.</p>
+                 <h6 class="modal-hd">Brand: <span class="Brand-modaal">liDiva</span> </h6>
+                 <h6 class="modal-hd">Price : <span class="text-danger"><del>Rs. 2200</del></span></h6>
+                 <h6 class="modal-hd">Discount Price : Rs. 1000</h6>
+                 <br>
+                 <div class="d-flex ">
+                   <h5>Quantity: </h5>
+                   <input type="number" name="" id="" min="1" max="5"
+                     class="form-control w-25   border-secondary border-top border-5">
+                 </div>
+                 <div>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <span>12 reviews</span>
+                 </div>
+                 <img src="./images/free.gif" class="del-clr border-secondary border-top border-5" alt=""
+                   height="100px">
+
+               </div>
+             </div>
+
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+           </div>
+         </div>
+       </div>
+     </div>
+
+
+      <div class="col-lg-3 col-md-6 my-3  d-flex justify-content-center" >
+        <div class="card card-border" style="width: 18rem;">
+          <img src="./images/card-6.jpg" class="card-img-top" alt="..." height="300px">
+           <hr class="w-100 border border-dark border-1 " />
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-dark btn-cntr" data-bs-toggle="modal"
+                data-bs-target="#exampleModal5"><i class="fa-solid fa-cart-shopping btn-i "></i> Buy Now </button>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5"
+        aria-hidden="true">
+        <div class="modal-dialog  modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel5">Sleeve Bag</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-5">
+                  <img src="./images/card-6.jpg" id="img5" height="250px" width="300px" alt="" class="">
+                  <div class="row d-flex justify-content-around">
+                    <img src="./images/modal-16.jpg" onclick="img16()"
+                      class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                    <img src="./images/modal-17.jpg" onclick="img17()"
+                      class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                    <img src="./images/modal-18.jpg" onclick="img18()"
+                      class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <h2>Sleeve Bag</h2>
+                  <p class="modal-para border-secondary border-top border-5">MOCA Fabric Laptop Sleeve Bag for All
+                    Laptops- (Up to 14 inch,Aqua / Grey)</p>
+                  <h6 class="modal-hd">Brand: <span class="Brand-modaal">liDiva</span> </h6>
+                  <h6 class="modal-hd">Price : <span class="text-danger"><del>Rs. 2500</del></span></h6>
+                  <h6 class="modal-hd">Discount Price : Rs.1500</h6>
+                  <br>
+                  <div class="d-flex ">
+                    <h5>Quantity: </h5>
+                    <input type="number" name="" id="" min="1" max="5"
+                      class="form-control w-25   border-secondary border-top border-5">
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>12 reviews</span>
+                  </div>
+                  <img src="./images/free.gif" class="del-clr border-secondary border-top border-5" alt=""
+                    height="100px">
+
+                </div>
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 my-3  d-flex justify-content-center">
+        <div class="card card-border" style="width: 18rem;">
+          <img src="./images/card-7.jpg" class="card-img-top" alt="..." height="300px">
+          <hr class="w-100 border border-dark border-1 " />
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-dark btn-cntr" data-bs-toggle="modal"
+                data-bs-target="#exampleModal6"><i class="fa-solid fa-cart-shopping btn-i"></i> Buy Now </button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6"
+      aria-hidden="true">
+      <div class="modal-dialog  modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel6">Shoulder Bag</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-5">
+                <img src="./images/card-7.jpg" id="img6" height="250px" width="300px" alt="" class="">
+                <div class="row d-flex justify-content-around">
+                  <img src="./images/modal-19.jpg" onclick="img19()"
+                    class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                  <img src="./images/modal-20.jpg" onclick="img20()"
+                    class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                  <img src="./images/modal-21.webp" onclick="img21()"
+                    class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <h2>Shoulder Bag</h2>
+                <p class="modal-para border-secondary border-top border-5">Classic Hot Selling Genuine Leather
+                  Flap Crossbody Bag Women Designer Leather Box Shoulder Bag</p>
+                <h6 class="modal-hd">Brand: <span class="Brand-modaal">liDiva</span> </h6>
+                <h6 class="modal-hd">Price : <span class="text-danger"><del>Rs. 2500</del></span></h6>
+                <h6 class="modal-hd">Discount Price : Rs.1500</h6>
+                <br>
+                <div class="d-flex ">
+                  <h5>Quantity: </h5>
+                  <input type="number" name="" id="" min="1" max="5"
+                    class="form-control w-25   border-secondary border-top border-5">
+                </div>
+                <div>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>12 reviews</span>
+                </div>
+                <img src="./images/free.gif" class="del-clr border-secondary border-top border-5" alt=""
+                  height="100px">
+
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-lg-3 col-md-6 my-3  d-flex justify-content-center" >
+        <div class="card card-border" style="width: 18rem;">
+          <img src="./images/card-8.jpg" class="card-img-top" alt="..." height="300px">
+          <hr class="w-100 border border-dark border-1 " />
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-dark btn-cntr" data-bs-toggle="modal"
+                data-bs-target="#exampleModal7"><i class="fa-solid fa-cart-shopping btn-i"></i> Buy Now </button>
+            </div>
+         
+      </div>
+    </div>
+  </div>
+     <!-- Modal -->
+     <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel7"
+     aria-hidden="true">
+     <div class="modal-dialog  modal-lg">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalLabel7">SuitCases</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+           <div class="row">
+             <div class="col-lg-5">
+               <img src="./images/card-8.jpg" id="img7" height="250px" width="300px" alt="" class="">
+               <div class="row d-flex justify-content-around">
+                 <img src="./images/modal-22.jpg" onclick="img22()"
+                   class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                 <img src="./images/modal-23.jpg" onclick="img23()"
+                   class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+                 <img src="./images/modal-24.jpg" onclick="img24()"
+                   class="w-25 mt-5 border border-dark border-1 rounded" alt="">
+               </div>
+             </div>
+             <div class="col-lg-7">
+               <h2>SuitCases</h2>
+               <p class="modal-para border-secondary border-top border-5">Classic Hot Selling Genuine Leather
+                 Flap Crossbody Bag Women Designer Leather Box Shoulder Bag</p>
+               <h6 class="modal-hd">Brand: <span class="Brand-modaal">liDiva</span> </h6>
+               <h6 class="modal-hd">Price : <span class="text-danger"><del>Rs. 2500</del></span></h6>
+               <h6 class="modal-hd">Discount Price : Rs.1500</h6>
+               <br>
+               <div class="d-flex ">
+                 <h5>Quantity: </h5>
+                 <input type="number" name="" id="" min="1" max="5"
+                   class="form-control w-25   border-secondary border-top border-5">
+               </div>
+               <div>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <span>12 reviews</span>
+               </div>
+               <img src="./images/free.gif" class="del-clr border-secondary border-top border-5" alt=""
+                 height="100px">
+
+             </div>
+           </div>
+
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+
+
+  <!-- card End -->
+
+
+
+
+  <!-- products start -->
+
+  <!-- Nav And tabs  start-->
+  <div class="container my-5 ">
+    <h1 class="text-center mt-5 ">Exclusive <span class="all-headings">Products</span></h1>
+    <ul class="nav nav-pills mb-3 d-flex justify-content-center my-5" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active btn btn-dark mx-3 mt-4" id="pills-home-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+          All
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link btn btn-dark  mx-3 mt-4" id="pills-profile-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+          New Products
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link btn btn-dark mx-3 mt-4 " id="pills-contact-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+          Special Offer
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link  btn btn-dark mx-3 mt-4" id="pills-best-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-best-product" type="button" role="tab" aria-controls="pills-best-product"
+          aria-selected="false">
+          Best Sellers
+        </button>
+      </li>
+    </ul>
+
+    <!-- All products start -->
+    <div class="tab-content" id="pills-tabContent">
+
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+        tabindex="0">
+        <div class="row">
+          <div  class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border  " style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-1.webp" class="card-img-top" height="300px" width="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <!-- <div class="card-body">
+                <h5 class="name text-center">Shoulder Bag</h5>
+                <div class="detail-bt text-center">
+                  <h2 class="h-font price"> <span> Rs.2,475 PKR* </span> </h3>
+                    <div class="stars-clr">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <span>(50)</span>
+                    </div>
+                    <div class=" text-center">
+                      <a href="javascript:void(0)" class=" btn btn-dark mt-3" id="card-btn">Add to Cart</a>
+                    </div>
+                </div>
+              </div> -->
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.2,475 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(68)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-2.jpg" class="card-img-top" height="300px" width="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Hand Bag</h5>
+                <h2 class="h-font">Rs.3,385 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(68)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-3.webp" class="card-img-top" height="300px" width="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Girls School Bag</h5>
+                <h2 class="h-font">Rs.4,475 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(90)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-4.jpg" class="card-img-top" height="300px" width="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Backpacks Bag</h5>
+                <h2 class="h-font">Rs.7,175 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(80)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-6.webp" class="card-img-top" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Laptop Bag</h5>
+                <h2 class="h-font">Rs.9,790 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(100)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-7.jpg" class="card-img-top" height="300px" width="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Sling Bag</h5>
+                <h2 class="h-font">Rs.2,490 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(30)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-8.webp" class="card-img-top" height="300px" width="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Travel Bag</h5>
+                <h2 class="h-font">Rs.18,399 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(56)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-5.jpg" class="card-img-top" height="300px" width="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoping Bag</h5>
+                <h2 class="h-font">Rs.1,275 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(43)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-9.jpg" class="card-img-top" height="300px" width="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Tote Bag</h5>
+                <h2 class="h-font">Rs.3,475 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(105)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-10.jpg" class="card-img-top" height="300px" width="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Coin Purse</h5>
+                <h2 class="h-font">Rs.2,475 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(96)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-11.jpg" class="card-img-top" height="300px" width="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Wallet</h5>
+                <h2 class="h-font">Rs.1,150 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(35)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart" title="wishlist"></a>
+                <a href="#" class="fas fa-eye " title="view"></a>
+              </div>
+              <img src="./images/all-12.jpg" class="card-img-top" height="300px" width="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Cosmetics Bag</h5>
+                <h2 class="h-font">Rs.2,075 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(73)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+
+      <!-- All products End -->
+
+
+      <!-- New products Start -->
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <div class="row  ">
+          <div class="col-lg-4 col-md-6 mt-3 d-flex justify-content-center">
+            <div class="card card-border " style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <img src="./images/n-product1.jpg" class="card-img-top mt-3" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.5,000 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(40)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye "></a>
+              </div>
+              <img src="./images/n-product2.webp" class="card-img-top mt-3" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.7,000 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(60)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye "></a>
+              </div>
+              <img src="./images/n-product3.jpg" class="card-img-top mt-3" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.9,000 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(66)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- New propducts End -->
+
+      <!-- Special Offers Start -->
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mt-3 d-flex justify-content-center">
+            <div class="card card-border " style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <img src="./images/special-1.jpeg" class="card-img-top mt-3" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.8,000 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(84)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye "></a>
+              </div>
+              <img src="./images/specail-2.webp" class="card-img-top mt-3" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.7,000 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(90)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye "></a>
+              </div>
+              <img src="./images/specail-3.jpg" class="card-img-top mt-3" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.5,000 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye "></a>
+              </div>
+              <img src="./images/specail-4.jpg" class="card-img-top mt-3" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.6,000 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(20)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+      <!--Special Offers End -->
+
+
+      <!--Best Seller Start -->
+      <div class="tab-pane fade" id="pills-best-product" role="tabpanel" aria-labelledby="pills-best-tab" tabindex="0">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mt-3 d-flex justify-content-center">
+            <div class="card card-border " style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <img src="./images/best-product1.jpg" class="card-img-top mt-3" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.8,000 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(80)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye "></a>
+              </div>
+              <img src="./images/best-product2.jpg" class="card-img-top mt-3" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.7,000 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(95)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye "></a>
+              </div>
+              <img src="./images/best-product3.jpeg" class="card-img-top mt-3" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.5,000 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(82)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center mt-3">
+            <div class="card card-border" style="width: 18rem;">
+              <div class="icons">
+                <a class="fas fa-shopping-cart" title="Add to Cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye "></a>
+              </div>
+              <img src="./images/best-product4.jpg" class="card-img-top mt-3" height="300px" alt="...">
+              <hr class="w-100 border border-dark border-1 " />
+              <div class="card-body">
+                <h5>Shoulder Bag</h5>
+                <h2 class="h-font">Rs.6,000 PKR*</h3>
+                  <div class="stars-clr">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(71)</span>
+                  </div>
+                  <div class="button text-center">Add to Cart</div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+
+
+
+      <!--Best Selle End -->
+
+      <!-- products End -->
+    </div>
+  </div>
+
+
+
+  <!-- banner Start -->
+  <h1 class="text-center my-5 ">Special <span class="all-headings">Offers</span></h1>
+  <div class="container   d-flex justify-content-center">
+    <div class="row ">
+      <div class="col-lg-4 col-md-6 ">
+        <div class="border-banner bnr1">
+          <div class="text-center">
+            <img src="./images/bnr-1.jpg" class="bnr-img " height="300px" alt="">
+          </div>
+          <div class="content text-center">
+            <span class="special-txt">special offer</span>
+            <h3 class="text-white">Upto 30% off</h3>
+            <a href="#" class="btn btn-dark mt-2">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6  ">
+        <div class="border-banner bnr1">
+          <div class="text-center">
+            <img src="./images/bnr-2.jpg" class="bnr-img" height="300px" alt="">
+          </div>
+          <div class="content text-center">
+            <span class="special-txt">special offer</span>
+            <h3 class="text-white">Upto 30% off</h3>
+            <button class="btn btn-dark mt-2">Shop Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6  ">
+        <div class="border-banner bnr1">
+          <div class="text-center">
+            <img src="./images/Women Bags Pics/sholder15.jpg" class="bnr-img" height="300px" alt="">
+          </div>
+          <div class="content text-center">
+            <span class="special-txt">special offer</span>
+            <h3 class="text-white">Upto 30% off</h3>
+            <button class="btn btn-dark mt-2">Shop Now</button>
+          </div>
+
+        </div>
+      </div>
+
+      <h1 class="text-center my-5 ">Fashion <span class="all-headings">Collection</span></h1>
+      <div class="col-lg-6 col-md-12 mt-3 d-flex justify-content-center">
+        <img src="./images/baner3.png" width="100%" alt="">
+      </div>
+      <div class="col-lg-6 col-md-12 mt-3 d-flex justify-content-center">
+        <img src="./images/baner4.png" width="100%" alt="">
+      </div>
+
+    </div>
+  </div>
+  <!-- banner End -->
+
+
+  <!-- customer review start -->
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center my-5 ">Customer <span class="all-headings">Reviews</span></h1>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/reveiw-1.jpg" class="img-reveiw1" width="250px" height="200px" alt="" srcset="" >
+            <h3 class=" text-center"><a href="">Mrs. Anaya Review</a></h3>
+            <div class="post-date text-center">Apr 30, 2023</div>
+            <p class="para-text text-center">Recieve my parcel & I am so happy it's amazing stuff, design are the best n
+              perfect love this <br> Quality. Bag Bag Thanks Sooo much more. <a href="#" class="fas fa-heart"></a></p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark ">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/reveiw-2.jpg" class="img-reveiw2" width="250px" height="200px" alt="" srcset="">
+            <h3 class="text-center"><a href="">Mrs Ayesha Reivew</a></h3>
+            <div class="post-date text-center">May 4, 2023</div>
+            <p class="para-text text-center">Thank You so Much for such a Quick Delivery.. <a href="#"
+                class="fas fa-heart"></a> Its my second order. And Soooo Happy <br> With Quality & U are Deliver <br>
+              Services.</p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">Read More</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/reveiw-3.jpg" class="img-reveiw3" width="250px" height="200px" alt="" srcset="">
+            <h3 class="text-center"><a href="">Mrs.Kashaf Review</a></h3>
+            <div class="post-date text-center">May 05, 2023</div>
+            <p class="para-text text-center">Recived my parcel today Quality is amazing <a href="#"
+                class="fas fa-heart"></a> 10/10. These Bags <br> Are So nice Will do Shoping again <br> Bag Bag Store.
+              Thank U So Much Bag Bag. </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/reveiw-4.jpg" class="img-reveiw1" width="250px" height="200px" alt="" srcset="">
+            <h3 class=" text-center"><a href="">Mrs. Saba Review</a></h3>
+            <div class="post-date text-center">Apr 30, 2023</div>
+            <p class="para-text text-center">Recieve my parcel & I am so happy it's amazing stuff, design are the best n
+              perfect love this <br> Quality. Bag Bag Thanks Sooo much more. <a href="#" class="fas fa-heart"></a></p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/review5.jpg" class="img-reveiw2" width="250px" height="200px" alt="" srcset="">
+            <h3 class="text-center"><a href="">Mrs laiba Reivew</a></h3>
+            <div class="post-date text-center">May 4, 2023</div>
+            <p class="para-text text-center">Thank You so Much for such a Quick Delivery.. <a href="#"
+                class="fas fa-heart"></a> Its my second order. And Soooo Happy <br> With Quality & U are Deliver <br>
+              Services.</p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">Read More</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/review6.jpg" class="img-reveiw3" width="250px" height="200px" alt="" srcset="">
+            <h3 class="text-center"><a href="">Mrs.kainat Review</a></h3>
+            <div class="post-date text-center">May 05, 2023</div>
+            <p class="para-text text-center">Recived my parcel today Quality is amazing <a href="#"
+                class="fas fa-heart"></a> 10/10. These Bags <br> Are So nice Will do Shoping again <br> Bag Bag Store.
+              Thank U So Much Bag Bag. </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/review7.webp" class="img-reveiw1" width="250px" height="200px" alt="" srcset="">
+            <h3 class=" text-center"><a href="">Mrs. Sawera Review</a></h3>
+            <div class="post-date text-center">Apr 30, 2023</div>
+            <p class="para-text text-center">Recieve my parcel & I am so happy it's amazing stuff, design are the best n
+              perfect love this <br> Quality. Bag Bag Thanks Sooo much more. <a href="#" class="fas fa-heart"></a></p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/review8.jpg" class="img-reveiw2" width="250px" height="200px" alt="" srcset="">
+            <h3 class="text-center"><a href="">Mrs Sana Reivew</a></h3>
+            <div class="post-date text-center">May 4, 2023</div>
+            <p class="para-text text-center">Thank You so Much for such a Quick Delivery.. <a href="#"
+                class="fas fa-heart"></a> Its my second order. And Soooo Happy <br> With Quality & U are Deliver <br>
+              Services.</p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">Read More</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/review9.jpg" class="img-reveiw3" width="250px" height="200px" alt="" srcset="">
+            <h3 class="text-center"><a href="">Mrs. Fatima Review</a></h3>
+            <div class="post-date text-center">May 05, 2023</div>
+            <p class="para-text text-center">Recived my parcel today Quality is amazing <a href="#"
+                class="fas fa-heart"></a> 10/10. These Bags <br> Are So nice Will do Shoping again <br> Bag Bag Store.
+              Thank U So Much Bag Bag. </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/review10.jpg" class="img-reveiw1" width="250px" height="200px" alt="" srcset="">
+            <h3 class=" text-center"><a href="">Mrs. Dania Review</a></h3>
+            <div class="post-date text-center">Apr 30, 2023</div>
+            <p class="para-text text-center">Recieve my parcel & I am so happy it's amazing stuff, design are the best n
+              perfect love this <br> Quality. Bag Bag Thanks Sooo much more. <a href="#" class="fas fa-heart"></a></p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/review11.jpg" class="img-reveiw2" width="250px" height="200px" alt="" srcset="">
+            <h3 class="text-center"><a href="">Mrs Ayesha Reivew</a></h3>
+            <div class="post-date text-center">May 4, 2023</div>
+            <p class="para-text text-center">Thank You so Much for such a Quick Delivery.. <a href="#"
+                class="fas fa-heart"></a> Its my second order. And Soooo Happy <br> With Quality & U are Deliver <br>
+              Services.</p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">Read More</button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="news-post">
+            <img src="./images/review12.jpg" class="img-reveiw3" width="250px" height="200px" alt="" srcset="">
+            <h3 class="text-center"><a href="">Mrs. laiba Review</a></h3>
+            <div class="post-date text-center">May 05, 2023</div>
+            <p class="para-text text-center">Recived my parcel today Quality is amazing <a href="#"
+                class="fas fa-heart"></a> 10/10. These Bags <br> Are So nice Will do Shoping again <br> Bag Bag Store.
+              Thank U So Much Bag Bag. </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">Read More</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+  <!-- customer review ENd -->
+
+
+  <!--  Footer Start -->
+  <footer class="container-fluid mt-5 bg-black ">
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-3 col-md-4  d-flex justify-content-center">
+         <a href="index.html"> <img src="./images/Logo.png" width="300px" height="250px" alt=""></a>
+        </div>
+        <div class="col-lg-3 col-md-4 my-3 text-center">
+          <h3 class="text-white text-center">Quick Links</h3>
+          <div class="d-flex justify-content-center">
+            <hr class="w-25 position-hr  border-4  ">
+          </div>
+          <ul class="footer-list ">
+            <li class="nav-item"><a class="nav-link text-white" href="./index.html">Home</a></li>
+            <li class="my-1 nav-item"><a class="nav-link text-white" href="./contactus.html">Contact</a></li>
+            <li class="my-1 nav-item"><a class="nav-link text-white" href="./aboutus.html">About Us</a></li>
+            <li class="my-1 nav-item"><a class="nav-link text-white" href="./gallery.html">Gallery</a></li>
+            <li class="my-1 nav-item"><a class="nav-link text-white" href="./feedback form.html">Feedback</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4 my-3">
+          <h3 class="text-white text-center">Get Help</h3>
+          <div class="d-flex justify-content-center">
+            <hr class="w-25 position-hr  border-4  ">
+          </div>
+          <ul class="footer-list text-center ">
+            <li class="nav-item"><a class="nav-link text-white" href="./faqs.html">FAQS</a></li>
+            <li class="my-1 nav-item"><a class="nav-link text-white" href="./track order.html">Track Your Order
+              </a></li>
+            <li class="my-1 nav-item"><a class="nav-link text-white" href="./how to order.html"> How To Order?</a></li>
+
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4 my-3">
+          <h3 class="text-white  text-center">Follow Us</h3>
+          <div class="d-flex justify-content-center">
+            <hr class="w-25 position-hr border-4   ">
+          </div>
+          <div class="footer-icons d-flex justify-content-center">
+            <a href="http://www.facebook.com"> <i class="fa-brands fa-facebook footer-icns-bg1"></i></a>
+            <a href="http://www.twitter.com"> <i class="fa-brands fa-twitter footer-icns-bg2"></i></a>
+            <a href="http://www.youtube.com"><i class="fa-brands fa-youtube footer-icns-bg3"></i></a>
+            <a href="http://www.instagram.com"><i class="fa-brands fa-instagram footer-icns-bg4"></i></a>
+          </div>
+          <form action="" class="form-email">
+            <input type="email" name="" id="" class="form-border form-control text-center" placeholder="Email Us" required>
+            <div class="mt-4 d-flex justify-content-center">
+              <button class="btn btn-outline-light text-email-clr" type="submit">Send Email</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+    <div class="container-fluid border-top border-5 ">
+      <h2 class="text-bottom d-flex justify-content-center "> BAG <span class="text-white  px-3">BAG</span> COMPANY
+        <span class="text-white  px-3">LTD.</span> &#174;</h2>
+    </div>
+  </footer>
+
+  <!--  Footer End -->
+
+  <script src="./assests/js/sript.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <!-- owl Carousel link Start -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- owl Carousel link End -->
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
