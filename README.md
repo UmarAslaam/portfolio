@@ -2,7 +2,7 @@
 
 A modern, fully responsive personal portfolio built for **MTech Solutions Frontend Development Internship (Batch 01, Task 01)**.
 
-**Live site:** https://your-site.netlify.app *(replace with your deployed URL)*
+**Live site:** https://umaraslamportfolio.netlify.app *(replace with your deployed URL)*
 
 ## Technologies
 - HTML5, CSS3 (Grid, Flexbox, custom properties, animations)
@@ -40,7 +40,7 @@ portfolio/
 ```
 
 ## Run locally
-1. Clone the repository: `git clone https://github.com/yourusername/portfolio.git`
+1. Clone the repository: `git clone https://github.com/UmarAslaam/portfolio`
 2. Open `index.html` in your browser (or use the VS Code Live Server extension).
 
 ## Deployment
